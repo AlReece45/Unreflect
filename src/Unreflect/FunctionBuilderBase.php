@@ -21,11 +21,6 @@ abstract class Unreflect_FunctionBuilderBase
 	/**
 	 * @var String
 	 */
-	protected $_access = '';
-
-	/**
-	 * @var String
-	 */
 	protected $_body = '';
 
 	/**
