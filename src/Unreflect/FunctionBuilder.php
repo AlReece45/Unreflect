@@ -23,7 +23,7 @@ class Unreflect_FunctionBuilder
 	 */
 	function export()
 	{
-		return $this->getDocumentation() . $this->getDefinition()
-			. "\n{" . str_replace("\n", "\n\t", "\n" . $this->getBody()) . "\n}\n";
+		return $this->getDocumentation() . $this->getDefinition() . "\n{"
+			. str_replace("\n", "\n\t", "\n" . $this->getBody()) . "\n}\n";
 	}
 }
